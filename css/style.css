@@ -18,7 +18,6 @@ background-color: brown;
     background-color: brown !important;
 }
 
-
 /* estilos del main*/
 main{
     height: 600px;
@@ -27,7 +26,11 @@ main{
     grid-template-rows: repeat(2, 1fr);
     justify-content: center;
     align-items: start;
+    color: white;
+}
 
+section{
+    color: white;
 }
 main form fieldset {
     background-color: brown;
@@ -48,23 +51,28 @@ footer h2{
     margin-top: 1rem;
 }
 
-@media screen and (max-width:600px){
+@media screen and (min-width:600px){
 main{
     display: block;
 }
-
 }
 
-@media screen and (max-width:1200px){
+@media screen and (min-width:1200px){
     main{
         display: block;
     }
-    }
+.picada{
+        width: 24rem ;
+        height: 26rem;
+        margin: 1rem;
+}
+}
 
 .mapa{
     width: 18rem ;
     height: 20rem;
     margin: 1rem;
+
 }
 
 
